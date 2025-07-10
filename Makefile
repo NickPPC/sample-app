@@ -1,8 +1,8 @@
 .PHONY: create update upload build
 
 VERSION := 1.0.0
-MODULE_NAME := my-apps-module
-ORG_PUBLIC_NAMESPACE := bashar-prod
+MODULE_NAME := sample-apps-module
+ORG_PUBLIC_NAMESPACE := nicolas-viam
 
 create:
 	viam module create --name=${MODULE_NAME} --public-namespace=${ORG_PUBLIC_NAMESPACE}
